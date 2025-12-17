@@ -816,5 +816,12 @@
     "publicByDefault": "デフォルトで公開プロンプト",
     "publicByDefaultDescription": "MCP経由でプロンプトを保存する際、プライベートではなくデフォルトで公開にします。",
     "settingUpdated": "設定が更新されました"
+  },
+  "footer": {
+    "docs": "ドキュメント",
+    "api": "API",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "github": "GitHub"
   }
 }

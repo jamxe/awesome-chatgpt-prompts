@@ -7,6 +7,7 @@ import { getConfig } from "@/lib/config";
 import { Button } from "@/components/ui/button";
 import { DiscoveryPrompts } from "@/components/prompts/discovery-prompts";
 import { HeroPromptInput } from "@/components/prompts/hero-prompt-input";
+import { LoopingVideo } from "@/components/ui/looping-video";
 
 function getOrdinalSuffix(n: number): string {
   const s = ["th", "st", "nd", "rd"];
@@ -72,15 +73,10 @@ export default async function HomePage() {
             {/* Video background */}
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-gradient-to-r rtl:bg-gradient-to-l from-background via-background/80 to-transparent z-10" />
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
+              <LoopingVideo
+                src="/animation.mp4"
                 className="absolute top-1/2 -translate-y-1/2 end-0 w-full h-auto opacity-30 dark:opacity-15 dark:invert"
-              >
-                <source src="/animation.mp4" type="video/mp4" />
-              </video>
+              />
             </div>
             {/* Animated input overlay - only show if AI generation is enabled */}
             {aiGenerationEnabled && (

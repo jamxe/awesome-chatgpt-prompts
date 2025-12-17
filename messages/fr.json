@@ -816,5 +816,12 @@
     "publicByDefault": "Prompts publics par défaut",
     "publicByDefaultDescription": "Lors de l'enregistrement de prompts via MCP, les rendre publics par défaut au lieu de privés.",
     "settingUpdated": "Paramètre mis à jour"
+  },
+  "footer": {
+    "docs": "Documentation",
+    "api": "API",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "github": "GitHub"
   }
 }

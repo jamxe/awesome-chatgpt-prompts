@@ -816,5 +816,12 @@
     "publicByDefault": "פרומפטים ציבוריים כברירת מחדל",
     "publicByDefaultDescription": "בעת שמירת פרומפטים דרך MCP, הפוך אותם לציבוריים כברירת מחדל במקום פרטיים.",
     "settingUpdated": "ההגדרה עודכנה"
+  },
+  "footer": {
+    "docs": "תיעוד",
+    "api": "API",
+    "privacy": "פרטיות",
+    "terms": "תנאים",
+    "github": "GitHub"
   }
 }

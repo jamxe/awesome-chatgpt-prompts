@@ -8,6 +8,7 @@ import { PromptFilters } from "@/components/prompts/prompt-filters";
 import { FilterProvider } from "@/components/prompts/filter-context";
 import { HFDataStudioDropdown } from "@/components/prompts/hf-data-studio-dropdown";
 import { McpServerPopup, McpIcon } from "@/components/mcp/mcp-server-popup";
+import { SidebarFooter } from "@/components/layout/sidebar-footer";
 import { db } from "@/lib/db";
 import { isAISearchEnabled, semanticSearch } from "@/lib/ai/embeddings";
 import { isAIGenerationEnabled } from "@/lib/ai/generation";
@@ -197,13 +198,16 @@ export default async function PromptsPage({ searchParams }: PromptsPageProps) {
 
       <FilterProvider>
         <div className="flex flex-col lg:flex-row gap-6">
-          <aside className="w-full lg:w-56 shrink-0">
+          <aside className="w-full lg:w-56 shrink-0 lg:sticky lg:top-20 lg:self-start lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
             <PromptFilters
               categories={categories}
               tags={tags}
               currentFilters={params}
               aiSearchEnabled={aiSearchAvailable}
             />
+            <div className="hidden lg:block">
+              <SidebarFooter />
+            </div>
           </aside>
           <main className="flex-1 min-w-0">
             <InfinitePromptList

@@ -816,5 +816,12 @@
     "publicByDefault": "Varsayılan olarak herkese açık promptlar",
     "publicByDefaultDescription": "MCP ile prompt kaydederken, varsayılan olarak özel yerine herkese açık yap.",
     "settingUpdated": "Ayar güncellendi"
+  },
+  "footer": {
+    "docs": "Belgeler",
+    "api": "API",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "github": "GitHub"
   }
 }

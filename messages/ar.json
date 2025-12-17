@@ -816,5 +816,12 @@
     "publicByDefault": "أوامر عامة افتراضياً",
     "publicByDefaultDescription": "عند حفظ الأوامر عبر MCP، اجعلها عامة افتراضياً بدلاً من خاصة.",
     "settingUpdated": "تم تحديث الإعداد"
+  },
+  "footer": {
+    "docs": "المستندات",
+    "api": "API",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "github": "GitHub"
   }
 }

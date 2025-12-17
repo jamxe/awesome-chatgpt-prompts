@@ -816,5 +816,12 @@
     "publicByDefault": "Δημόσια prompts από προεπιλογή",
     "publicByDefaultDescription": "Κατά την αποθήκευση prompts μέσω MCP, να γίνονται δημόσια από προεπιλογή αντί για ιδιωτικά.",
     "settingUpdated": "Η ρύθμιση ενημερώθηκε"
+  },
+  "footer": {
+    "docs": "Τεκμηρίωση",
+    "api": "API",
+    "privacy": "Απόρρητο",
+    "terms": "Όροι",
+    "github": "GitHub"
   }
 }

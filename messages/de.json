@@ -816,5 +816,12 @@
     "publicByDefault": "Prompts standardmäßig öffentlich",
     "publicByDefaultDescription": "Beim Speichern von Prompts über MCP standardmäßig öffentlich statt privat machen.",
     "settingUpdated": "Einstellung aktualisiert"
+  },
+  "footer": {
+    "docs": "Dokumentation",
+    "api": "API",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "github": "GitHub"
   }
 }

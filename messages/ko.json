@@ -816,5 +816,12 @@
     "publicByDefault": "기본적으로 공개 프롬프트",
     "publicByDefaultDescription": "MCP를 통해 프롬프트를 저장할 때 비공개 대신 기본적으로 공개로 설정합니다.",
     "settingUpdated": "설정이 업데이트되었습니다"
+  },
+  "footer": {
+    "docs": "문서",
+    "api": "API",
+    "privacy": "개인정보 보호",
+    "terms": "이용약관",
+    "github": "GitHub"
   }
 }

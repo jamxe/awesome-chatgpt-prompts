@@ -816,5 +816,12 @@
     "publicByDefault": "Prompts públicos por defecto",
     "publicByDefaultDescription": "Al guardar prompts vía MCP, hacerlos públicos por defecto en lugar de privados.",
     "settingUpdated": "Configuración actualizada"
+  },
+  "footer": {
+    "docs": "Documentación",
+    "api": "API",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "github": "GitHub"
   }
 }

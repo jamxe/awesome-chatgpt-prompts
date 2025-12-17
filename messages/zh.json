@@ -816,5 +816,12 @@
     "publicByDefault": "默认公开提示词",
     "publicByDefaultDescription": "通过 MCP 保存提示词时，默认设为公开而非私有。",
     "settingUpdated": "设置已更新"
+  },
+  "footer": {
+    "docs": "文档",
+    "api": "API",
+    "privacy": "隐私",
+    "terms": "条款",
+    "github": "GitHub"
   }
 }
